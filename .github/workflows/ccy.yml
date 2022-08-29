@@ -1,0 +1,14 @@
+name: ccy-helper
+
+on:
+  schedule:
+    - cron: "0 15/23 * * *"
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+      - name: Run Project
+        run: npm install && npm run server
