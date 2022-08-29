@@ -1,8 +1,8 @@
-name: fyp-helper
+name: ccy-helper
 
 on:
   schedule:
-    - cron: "3:30 * * *" # 该时间为UTC时间，比北京时间晚8个小时，每天早上7点自动执行
+    - cron: "35 3 * * *" # 该时间为UTC时间，比北京时间晚8个小时，每天早上7点自动执行
 
 jobs:
   send:
