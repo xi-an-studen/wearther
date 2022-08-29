@@ -2,7 +2,7 @@ name: fyp-helper
 
 on:
   schedule:
-    - cron: "03 03 * * *" # 该时间为UTC时间，比北京时间晚8个小时，每天早上7点自动执行
+    - cron: "3:06 AM * * *" # 该时间为UTC时间，比北京时间晚8个小时，每天早上7点自动执行
 
 jobs:
   send:
