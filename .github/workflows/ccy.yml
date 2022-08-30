@@ -2,7 +2,7 @@ name: ccy-helper
 
 on:
   schedule:
-    - cron: "0 15/23 * * *"
+    - cron: "0 15,23 * * *"
 
 jobs:
   send:
